@@ -1,0 +1,157 @@
+/*this is a css file*/
+
+body{
+margin-left: 25%;
+margin-right: 10%;
+font-family: 'Chilanka', 'Montserrat', 'Red+Hat';
+background-image: url(../img/paper.jpg);
+background-position: contain;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.p-main1{
+font-size: 20px;
+margin-left: 5%;
+}
+
+.d1{
+position: absolute;
+top: 115px;
+right: 150px;
+}
+
+nav ul li{
+color: darkkhaki; 
+display: inline-block;
+font-size: 25px;
+margin-right: 3.5%;
+float: right;
+}
+
+
+.Linkedin{
+background-color: gray;
+border-radius: 5px;
+color:white;
+font-size: 20px;
+width: 150px;
+height: 50px;
+padding: 10px;
+border: 0 none black; 
+margin-right: 20px;
+}
+
+.Contact{
+background-color:gray;
+border-radius: 5px;
+color:white;
+font-size: 20px;
+width: 150px;
+height: 50px;
+padding: 10px;
+border: 0 none black;
+margin-right: 10px;
+}
+
+.Instagram{
+background-color:gray;
+border-radius: 5px;
+color:white;
+font-size: 20px;
+width: 150px;
+height: 50px;
+padding: 10px;
+border: 0 none black;
+margin-right: 15px;
+}
+
+em{
+font: 25px;
+color: brown;
+}
+
+.jhandy{
+color: rgb(43, 41, 41);
+font-size: 20px;
+margin-right: 20%;
+}
+
+.jhandy2{
+color: rgb(43, 41, 41);
+font-size: 18px;
+}
+
+section{
+border: 1px;
+float: center;
+}
+
+.img{
+float: right;
+margin: 15px;
+border-radius: 5px;
+margin-right: 15%;
+margin-top: 5%;
+} 
+
+form{
+width: 440px;
+height: 520px;
+margin-left: 0%;
+position: relative;
+padding: 20px;
+float: center;
+background-color: white;
+border: 1px dashed grey;
+font-size: 20px;
+}
+
+input{
+width: 75%;
+font-size: 20px;
+}
+
+a:link,a:visited{
+padding: 7px 20px;
+color: black;
+text-align: center;
+text-decoration: none;
+border-radius: 5px;
+border: 0 none black;
+}
+
+@keyframes slidy{
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+/* body{ 
+margin: 0; 
+} */
+
+div#slider{ 
+overflow: hidden; 
+}
+
+div#slider figure img{ 
+width: 10%; 
+float: left; 
+}
+
+div#slider figure{ 
+position: relative;
+width: 500%;
+margin: 0;
+left: 0;
+text-align: left;
+font-size: 0;
+animation: 30s slidy infinite; 
+}
